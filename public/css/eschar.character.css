@@ -1,0 +1,30 @@
+﻿
+
+.eschar-character-list {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+  .eschar-character-list li {
+    background-image: linear-gradient(0, #292929, #434343);
+    background-image: -moz-linear-gradient(0, #292929, #434343);
+    border-bottom: 2px solid #101010;
+    cursor: pointer;
+    line-height: 25px;
+    padding: 0px 7px 0px 7px;
+    white-space: nowrap;
+  }
+    .eschar-character-list li span {
+      /*outline: 1px solid red;*/
+    }
+
+    .eschar-character-list li.selectedName {
+      background-image: linear-gradient(0, #8AB1DA, #A4C1DF);
+      background-image: -moz-linear-gradient(0, #8AB1DA, #A4C1DF);
+      color: #101010;
+      /*color: #A4C1DF;*/
+      font-weight: bold;
+    }
+
+
+

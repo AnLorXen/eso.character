@@ -1,0 +1,167 @@
+﻿
+
+.eschar-skill-list {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+  .eschar-skill-list li {
+    margin: 0px 0px 1px 0px;
+    padding: 3px 3px 3px 3px;
+  }
+
+
+.ability-list {
+  padding: 0px;
+  white-space: nowrap;
+}
+.ability-list li {
+  display: inline-block;
+  margin: 0px 4px 0px 4px;
+  padding: 3px 0px 0px 3px;
+}
+.ability-list li.ultimate {
+  border: 2px solid #DAA520;
+}
+.ability-list li.active {
+  border: 2px solid #E00000;
+}
+.ability-list li.passive {
+  border: 2px solid #0000E0;
+}
+
+
+.morph1, .morph2 {
+}
+
+.icon {
+  background-size: 48px 48px;
+  cursor: pointer;
+  display: inline-block;
+  height: 48px;
+  margin: 0px 0px 0px 0px;
+  width: 48px;
+}
+
+.info {
+  display: inline-block;
+  padding: 0px 0px 0px 5px;
+  vertical-align: top;
+  width: 185px;
+}
+.info-title {
+  cursor: pointer;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  margin: 0px 0px 0px 0px;
+  padding: 2px 0px 0px 2px;
+}
+
+.info-progress {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 3px;
+}
+.bar {
+  background-color: #202020;
+  border-color: #505058;
+  border-radius: 0px 3px 3px 0px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  height: 13px;
+  width: 165px;
+}
+  .info-progress::-moz-progress-bar {
+    background: #A4C1DF;
+    border-color: #000000;
+  }
+  .bar::-webkit-progress-bar {
+    background: #000000;
+  }
+  .bar::-webkit-progress-value {
+    background-image: linear-gradient(90deg, #2C2C55, #B0B0B0);
+  }
+
+.build {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  vertical-align: top;
+  width: 60px;
+}
+
+.build-count {
+  cursor: default;
+  height: 20px;
+  text-align: center;
+}
+
+.build-ctrls {
+}
+
+.build-ctrl-bar {
+  background-image: url('../img/eschr-bar-btn.png');
+  border: 1px solid #505058;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin: 5px 0px 0px 8px;
+  opacity: 0.8;
+  padding: 0px 0px 0px 0px;
+  width: 20px;
+}
+
+.build-ctrl-count {
+  background-image: url('../img/eschr-count-btn-01.png');
+  background-position: 0px 0px;
+  border: 1px solid #505058;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin: 5px 0px 0px 4px;
+  opacity: 0.8;
+  padding: 0px 0px 0px 0px;
+  width: 20px;
+}
+
+.count-on {
+  background-position: 0px 20px;
+}
+.no-bar {
+  margin: 5px 0px 0px 20px;
+}
+
+
+.selectedSkill.ultimate {
+  box-shadow: 
+    0 0 10px #DAA520, 
+    inset 0 0 15px #DAA520;
+}
+.selectedSkill.active {
+  box-shadow: 
+    0 0 10px #E00000, 
+    inset 0 0 15px #E00000;
+}
+.selectedSkill.passive {
+  box-shadow: 
+    0 0 10px #0000E0, 
+    inset 0 0 15px #0000E0;
+}
+
+.selectedSkill .info-title {
+  color: #D0D0DA;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

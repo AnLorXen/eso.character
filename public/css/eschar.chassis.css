@@ -1,0 +1,43 @@
+﻿
+
+.eschar-chassis-header {
+  flex-basis: 85px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-height: 85px;
+}
+
+.eschar-chassis-body {
+  display: flex;
+  flex-basis: auto;
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.eschar-body-catgrp {
+  flex-basis: 335px;
+  flex-shrink: 0;
+  order: 2;
+}
+
+.eschar-body-skill {
+  flex-basis: auto;
+  order: 3;
+}
+
+.eschar-chassis-footer {
+  flex-basis: 25px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.eschar-chassis-modal {
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+﻿
+
+.eschar-chassis-footer {
+  background: linear-gradient( 180deg, #2C2C55, #00000F 15% );
+  position: relative;
+  white-space: nowrap;
+}
+
+
+
+.footer-info {
+  color: #676770;
+  display: inline-block;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  vertical-align: middle;
+  width: 160px;
+}
+
+#footer-info-text-one {
+  margin: 0px 0px 0px 55px;
+  /*width: 200px;*/
+}
+#footer-info-text-two {
+  margin: 0px 0px 0px 15px;
+  /*width: 250px;*/
+}
+#footer-info-text-three {
+  margin: 0px 0px 0px 15px;
+  /*width: 250px;*/
+}
+#footer-info-text-four {
+  margin: 0px 0px 0px 15px;
+  /*width: 250px;*/
+}
+
+
