@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AnLorXen - Characters</title>
+  <meta charset="utf-8" />
+
+  <link href="css/eschar.css" rel="stylesheet" />
+  <link href="css/eschar.chassis.css" rel="stylesheet" />
+  <link href="css/eschar.header.css" rel="stylesheet" />
+  <link href="css/eschar.character.css" rel="stylesheet" />
+  <link href="css/eschar.catgrp.css" rel="stylesheet" />
+  <link href="css/eschar.skill.css" rel="stylesheet" />
+  <link href="css/eschar.skill.dyn.css" rel="stylesheet" />
+  <link href="css/eschar.footer.css" rel="stylesheet" />
+  <link href="css/eschar.modal.css" rel="stylesheet" />
+
+  <script src="js/eschar.js"></script>
+  <script src="js/eschar.chassis.js"></script>
+  <script src="js/eschar.header.js"></script>
+  <script src="js/eschar.character.js"></script>
+  <script src="js/eschar.catgrp.js"></script>
+  <script src="js/eschar.skill.js"></script>
+  <script src="js/eschar.footer.js"></script>
+  <script src="js/eschar.modal.js"></script>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      eschar.initModule(
+        document.getElementsByClassName("eschar")[0]
+      );
+    });
+  </script>
+
+</head>
+<body>
+  <div class="eschar"></div>
+</body>
+</html>
