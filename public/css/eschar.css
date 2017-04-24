@@ -1,1 +1,27 @@
 
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.eschar {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.eschar {
+  background-color: #00000F;
+  color: #A0A0A5;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+}
+
+
